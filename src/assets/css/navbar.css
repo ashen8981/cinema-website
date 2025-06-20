@@ -46,8 +46,14 @@
   transition: color 0.3s;
 }
 
+.nav-menu a.active {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 4px;
+  color: #fff;
+}
+
 .nav-menu a:hover {
-  color: #f39c12;
+  color: #fff;
 }
 
 .hamburger {
